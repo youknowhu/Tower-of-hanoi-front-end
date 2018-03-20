@@ -1,0 +1,62 @@
+.ttt {
+  width: 310px;
+  margin: 0 auto;
+  background: none;
+  border: 5px solid black;
+  box-sizing: border-box;
+}
+
+li {
+  float: left;
+}
+
+.square {
+  box-sizing: border-box;
+  border: 5px solid black;
+  width: 100px;
+  height: 100px;
+  float: left;
+  transition: outline 0.5s, background-color 0.5s;
+  cursor: crosshair;
+  background-color: gray;
+  list-style: none;
+}
+
+.square:hover {
+  background-color: gold;
+}
+
+.group:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+ul.group {
+  margin: 0;
+  width: 500px;
+  padding: 0;
+}
+
+.x, .o {
+  background-color: white;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+.winner {
+  color: white;
+  background-color: green;
+}
+
+.loser {
+  color: red;
+}
+
+.strong {
+  font-weight: bold;
+}
