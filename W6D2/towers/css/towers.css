@@ -1,0 +1,42 @@
+.hanoi {
+  display: flex;
+}
+
+.tower {
+  border-bottom: 5px solid black;
+  margin: 30px;
+  min-width: 200px;
+  height: 400px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.tower:hover {
+  border-bottom: 5px solid blue;
+}
+
+.clickedTower {
+  border-bottom: 5px solid red;
+}
+
+li {
+  margin: 5px auto;
+  list-style: none;
+  background-color: gray;
+  border-radius: 25px;
+  height: 50px;
+}
+
+
+.disc1 {
+  /* margin-left:  */
+  width: 100px;
+}
+.disc2 {
+  width: 150px;
+}
+.disc3 {
+  width: 200px;
+}
